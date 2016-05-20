@@ -30,3 +30,7 @@ J'ai du mal à ecrire c'est dingue.
 
 Voila le gros du truc quoi. Si t'as des questions on se cause. 
 
+EDIT 
+Le portage vers un second site d'échange serait un plus. La 2nde cible serait Kraken.com.
+Exemple d'api en node js ici 
+https://github.com/nothingisdead/npm-kraken-api/blob/master/kraken.js
