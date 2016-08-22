@@ -13,10 +13,14 @@ https://pusher.com/docs
  Qu'est ce qui passe à partir de là ? 
 
 Organisation de l'espace de travail. 
+
    Q:Quel type de fichier je vais coder ? Un fichier javascript vraissemblablement. Peut être plusieurs ? Ca ne devrait pas etre un projet énorme. 
-   R: Projet débuter en python. Installer le client python pour bitstamp. cf https://github.com/kmadac/bitstamp-python-client.
+
+   R: Projet débuté en python. Installer le client python pour bitstamp. cf https://github.com/kmadac/bitstamp-python-client.
    
-   -Où tourne le robot ? sur mon pc ? Si oui, et que je veux un robot 24/24 il faut l'heberger -> raspberry pi :P Mais on verra ca plus tard. Et plus tard c'est maintenant. A priori il suffit de faire tourner des fichiers python sur une machine. un OS pour py basic sous linux et on installe python et roule ma poule. 
+   Q:Où tourne le robot ? sur mon pc ? Si oui, et que je veux un robot 24/24 il faut l'heberger -> raspberry pi :P Mais on verra ca plus tard. 
+   
+   R:Et plus tard c'est maintenant. A priori il suffit de faire tourner des fichiers python sur une machine. un OS pour py basic sous linux et on installe python et roule ma poule. 
 
 Premiere ébauche de robot : 
 [x]établir une communication basique. 
