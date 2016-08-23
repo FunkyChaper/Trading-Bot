@@ -24,7 +24,9 @@ Organisation de l'espace de travail.
 
 Premiere ébauche de robot : 
 [x]établir une communication basique. 
+
 []Etoffer les capacité du bestiaux une par une. 
+
 []Création de test ? (J'ai lu ca dans un bouquin :P ) 
 
 Processus à atteindre : 
