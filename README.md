@@ -16,19 +16,25 @@ Organisation de l'espace de travail.
 
    Q:Quel type de fichier je vais coder ? Un fichier javascript vraissemblablement. Peut être plusieurs ? Ca ne devrait pas etre un projet énorme. 
 
-   R: Projet débuté en python. Installer le client python pour bitstamp. cf https://github.com/kmadac/bitstamp-python-client.
+   R: Projet débuté en python 3. 
+   
+   Il faut installer le client python pour bitstamp. cf https://github.com/kmadac/bitstamp-python-client.
    
    Q:Où tourne le robot ? sur mon pc ? Si oui, et que je veux un robot 24/24 il faut l'heberger -> raspberry pi :P Mais on verra ca plus tard. 
    
-   R:Et plus tard c'est maintenant. A priori il suffit de faire tourner des fichiers python sur une machine. un OS pour py basic sous linux et on installe python et roule ma poule. 
+   R:Et plus tard c'est maintenant. A priori il suffit de faire tourner des fichiers python sur une machine. un OS pour Rpi basic sous linux et on installe python et roule ma poule. 
 
 Premiere ébauche de robot : 
 
 [x]établir une communication basique. 
 
-[]Etoffer les capacité du bestiaux une par une. 
+[/] Etoffer les capacité du bestiaux une par une. 
 
-[]Création de test ? (J'ai lu ca dans un bouquin :P ) 
+[ ] Création de test ? (J'ai lu ca dans un bouquin :P ) 
+
+[ ] Faire une flowchart basique des actions à suivre. 
+
+[ ] Détaillé la flowchart (idealement jusqu'aux fonctions)
 
 Processus à atteindre : 
 Le robot devrait executer les actions suivantes pour compléter un cycle. 
@@ -38,11 +44,13 @@ Un ordre est une offre d'achat ou de vente à un prix fixé.
 
 2- Création d'un ordre avec options de cloture sur benefice. (J'achete 1 btc à 100€, j'indique le prix auquel je souahite revendre - par example 103€, quand ce prix est atteint, mon btc est revendu. Il faudrat prendre en compte les frais de transaction pour déterminer le breakeven point et ajusté la strategie en fonction de cette valeur) La création d'ordre pourra se faire pour l'achat de BTC, ou pour l'achat d'EURO) 
 
-J'ai du mal à ecrire c'est dingue. 
 
-Voila le gros du truc quoi. Si t'as des questions on se cause. 
+Voila le gros du truc. Si t'as des questions, on se cause. 
 
 EDIT 
 Le portage vers un second site d'échange serait un plus. La 2nde cible serait Kraken.com.
-Exemple d'api en node js ici 
+Exemple d'api en node js ici. 
 https://github.com/nothingisdead/npm-kraken-api/blob/master/kraken.js
+J'ai écris une fonction qui passe des ordres d'achat
+
+
