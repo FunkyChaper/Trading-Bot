@@ -23,6 +23,7 @@ Organisation de l'espace de travail.
    R:Et plus tard c'est maintenant. A priori il suffit de faire tourner des fichiers python sur une machine. un OS pour py basic sous linux et on installe python et roule ma poule. 
 
 Premiere ébauche de robot : 
+
 [x]établir une communication basique. 
 
 []Etoffer les capacité du bestiaux une par une. 
