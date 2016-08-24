@@ -18,7 +18,7 @@ import bitstamp.client
 
 import bitstamp.client
 public_client = bitstamp.client.Public()
-trader = bitstamp.client.Trading('08096', 'Q2P7lXiZviLnQYGMQ9HZ9B5nEz2luBCi', 'EU5Nb1jqFLz1j44YIY3xiTQKdCFhn1pU')
+trader = bitstamp.client.Trading('client ID', 'key', 'secret')
 
 # 1
 #apelle de la fonction account_balance sur l'objet trader. Obtention d'un dictionnaire de liste
